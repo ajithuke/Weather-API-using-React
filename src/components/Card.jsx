@@ -1,10 +1,12 @@
 import React from "react";
+import { useWeather } from "../context/Weather";
 
 const Card = ()=>{
+    const weather = useWeather()
+
     return (
         <div className="card">
-            <h2>Temperture</h2>
-            <h2>Location</h2>
+            <h2>{weather.data?.current?.temp_c} Celsius</h2>
         </div>
     )
 }
