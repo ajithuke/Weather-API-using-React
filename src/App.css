@@ -49,11 +49,10 @@
   display: block;
   height: 36px;
   :hover {
-      border-color: #bc4e4e;
+      border-color: #ccc;
   }
   :focus{
       border-color: #9147ff;
       background: #fff;
   }
-  margin-left: 670px;
 }
