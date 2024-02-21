@@ -1,9 +1,10 @@
 import React from "react";
 
-const Button= ()=>{
+const Button= (props)=>{
     return (
-        <div className="search-button">
-            <button>Search</button>
-        </div>
+        <button className="button" 
+        onClick={props.onClick}>{props.value}</button>
     )
 }
+
+export default Button

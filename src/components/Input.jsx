@@ -1,9 +1,13 @@
 import React from "react";
 
-const Input = ()=>{
+const Input = (props)=>{
     return (
-        <div className="user-input">
-            <input> </input>
-        </div>
+        <input className="user-input"
+            placeholder={props.placeholder} 
+            value={props.value}
+            onChange={props.onChange}
+        />
     )
 }
+
+export default Input

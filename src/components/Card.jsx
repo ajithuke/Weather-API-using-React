@@ -4,7 +4,9 @@ const Card = ()=>{
     return (
         <div className="card">
             <h2>Temperture</h2>
-            <h5>Location</h5>
+            <h2>Location</h2>
         </div>
     )
 }
+
+export default Card
